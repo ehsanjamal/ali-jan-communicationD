@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products — Admin — Ali Jan Communication</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+
+<div class="admin-shell">
+  <aside class="admin-sidebar">
+    <div class="admin-sidebar-brand">
+      <div class="logo-mark" style="width:38px;height:38px;font-size:0.85rem;">AJC</div>
+      <div class="logo-text">
+        <div class="big">ALI JAN</div>
+        <div class="small">ADMIN PANEL</div>
+      </div>
+    </div>
+    <nav class="admin-nav" id="adminNav">
+      <a href="admin-dashboard.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+        <span>Dashboard</span>
+      </a>
+      <a href="admin-products.html" class="admin-nav-item active">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="7" y="2" width="10" height="20" rx="2"/></svg>
+        <span>Products</span>
+      </a>
+      <a href="admin-categories.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="14" y2="18"/></svg>
+        <span>Categories</span>
+      </a>
+      <a href="admin-brands.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/></svg>
+        <span>Brands</span>
+      </a>
+      <div class="admin-nav-item soon-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1.4"/><circle cx="19" cy="21" r="1.4"/><path d="M2.5 3h2l2.6 12.4a2 2 0 002 1.6h8.8a2 2 0 002-1.6L21 8H6"/></svg>
+        <span>Orders</span><span class="soon">Soon</span>
+      </div>
+      <div class="admin-nav-item soon-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+        <span>Customers</span><span class="soon">Soon</span>
+      </div>
+      <a href="admin-featured.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>
+        <span>Featured Products</span>
+      </a>
+      <a href="admin-offers.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l7 4v6c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6l7-4z"/></svg>
+        <span>Offers</span>
+      </a>
+      <a href="admin-banners.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="6" width="20" height="12" rx="2"/></svg>
+        <span>Banners &amp; Slider</span>
+      </a>
+      <a href="admin-settings.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.9l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.9-.3 1.7 1.7 0 00-1 1.6V21a2 2 0 11-4 0v-.1a1.7 1.7 0 00-1-1.5 1.7 1.7 0 00-1.9.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.9 1.7 1.7 0 00-1.6-1H3a2 2 0 110-4h.1a1.7 1.7 0 001.6-1 1.7 1.7 0 00-.3-1.9l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.9.3H9a1.7 1.7 0 001-1.6V3a2 2 0 114 0v.1a1.7 1.7 0 001 1.6 1.7 1.7 0 001.9-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.9V9a1.7 1.7 0 001.6 1H21a2 2 0 110 4h-.1a1.7 1.7 0 00-1.6 1z"/></svg>
+        <span>Settings</span>
+      </a>
+    </nav>
+  </aside>
+
+  <div class="admin-main">
+    <header class="admin-topbar">
+      <h1>Products</h1>
+      <div class="admin-profile">
+        <div class="admin-profile-info">
+          <div class="name" id="adminName">—</div>
+          <div class="role" id="adminRole">—</div>
+        </div>
+        <div class="admin-avatar" id="adminAvatar">A</div>
+        <button class="admin-logout" id="logoutBtn">Logout</button>
+      </div>
+    </header>
+
+    <main class="admin-content">
+
+      <div class="products-toolbar">
+        <div class="type-tabs" id="typeTabs">
+          <button class="type-tab active" data-type="">All</button>
+          <button class="type-tab" data-type="new_phone">New Phones</button>
+          <button class="type-tab" data-type="used_phone">Used Phones</button>
+          <button class="type-tab" data-type="accessory">Accessories</button>
+          <button class="type-tab" data-type="tablet">Tablets</button>
+          <button class="type-tab" data-type="smart_watch">Smart Watches</button>
+        </div>
+        <div class="products-toolbar-right">
+          <input type="text" id="searchInput" class="products-search" placeholder="Search products...">
+          <button class="admin-btn-primary" id="addProductBtn">+ Add Product</button>
+        </div>
+      </div>
+
+      <div id="productsMsg" class="products-msg"></div>
+
+      <div class="products-table-wrap">
+        <table class="products-table">
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Price</th>
+              <th>Stock</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="productsTbody">
+            <tr><td colspan="7" class="products-empty">Loading...</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="products-pagination" id="productsPagination"></div>
+
+    </main>
+  </div>
+</div>
+
+<!-- Add / Edit Product Modal -->
+<div class="modal-overlay" id="productModalOverlay">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h2 id="modalTitle">Add Product</h2>
+      <button class="modal-close" id="modalCloseBtn">&times;</button>
+    </div>
+
+    <form id="productForm" class="product-form">
+      <input type="hidden" id="productId">
+
+      <div class="form-row">
+        <div class="form-field">
+          <label>Product Name *</label>
+          <input type="text" id="f_name" required>
+        </div>
+        <div class="form-field">
+          <label>Type *</label>
+          <select id="f_productType" required>
+            <option value="new_phone">New Phone</option>
+            <option value="used_phone">Used Phone</option>
+            <option value="accessory">Accessory</option>
+            <option value="tablet">Tablet</option>
+            <option value="smart_watch">Smart Watch</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label>Price (Rs) *</label>
+          <input type="number" id="f_price" min="0" required>
+        </div>
+        <div class="form-field">
+          <label>Discount Price (Rs)</label>
+          <input type="number" id="f_discountPrice" min="0">
+        </div>
+        <div class="form-field">
+          <label>Stock Qty *</label>
+          <input type="number" id="f_stock" min="0" required>
+        </div>
+      </div>
+
+      <div class="form-row" id="conditionRow">
+        <div class="form-field">
+          <label>Condition</label>
+          <select id="f_condition">
+            <option value="">—</option>
+            <option value="new">New</option>
+            <option value="used">Used</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label>PTA Status</label>
+          <select id="f_ptaStatus">
+            <option value="">—</option>
+            <option value="pta_approved">PTA Approved</option>
+            <option value="non_pta">Non-PTA</option>
+            <option value="factory_unlocked">Factory Unlocked</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label>Warranty (days)</label>
+          <input type="number" id="f_warrantyDays" min="0" value="0">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label>Storage</label>
+          <input type="text" id="f_storage" placeholder="e.g. 128GB">
+        </div>
+        <div class="form-field">
+          <label>RAM</label>
+          <input type="text" id="f_ram" placeholder="e.g. 8GB">
+        </div>
+        <div class="form-field">
+          <label>Battery Health</label>
+          <input type="text" id="f_batteryHealth" placeholder="e.g. 92%">
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>Description</label>
+        <textarea id="f_description" rows="3"></textarea>
+      </div>
+
+      <div class="form-field">
+        <label>Tags (comma separated)</label>
+        <input type="text" id="f_tags" placeholder="e.g. gaming, 5g, oled">
+      </div>
+
+      <div class="form-row form-row-checks">
+        <label class="check-field"><input type="checkbox" id="f_isSoldOut"> Sold Out</label>
+        <label class="check-field"><input type="checkbox" id="f_isFeatured"> Featured</label>
+        <label class="check-field"><input type="checkbox" id="f_isActive" checked> Active (visible on storefront)</label>
+      </div>
+
+      <div class="form-field">
+        <label>Images (up to 6)</label>
+        <input type="file" id="f_images" accept="image/*" multiple>
+        <div class="image-preview-strip" id="imagePreviewStrip"></div>
+      </div>
+
+      <div id="formError" class="admin-error"></div>
+
+      <div class="modal-actions">
+        <button type="button" class="admin-btn-secondary" id="cancelBtn">Cancel</button>
+        <button type="submit" class="admin-btn-primary" id="saveBtn">Save Product</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Delete Confirm Modal -->
+<div class="modal-overlay" id="deleteModalOverlay">
+  <div class="modal-box modal-box-sm">
+    <h2>Delete Product</h2>
+    <p class="delete-confirm-text">Are you sure you want to delete "<span id="deleteProductName"></span>"? This cannot be undone.</p>
+    <div class="modal-actions">
+      <button type="button" class="admin-btn-secondary" id="deleteCancelBtn">Cancel</button>
+      <button type="button" class="admin-btn-danger" id="deleteConfirmBtn">Delete</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/admin-config.js"></script>
+<script src="js/admin-products.js"></script>
+</body>
+</html>

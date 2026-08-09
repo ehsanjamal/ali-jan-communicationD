@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Featured Products — Admin — Ali Jan Communication</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+
+<div class="admin-shell">
+  <aside class="admin-sidebar">
+    <div class="admin-sidebar-brand">
+      <div class="logo-mark" style="width:38px;height:38px;font-size:0.85rem;">AJC</div>
+      <div class="logo-text">
+        <div class="big">ALI JAN</div>
+        <div class="small">ADMIN PANEL</div>
+      </div>
+    </div>
+    <nav class="admin-nav" id="adminNav">
+      <a href="admin-dashboard.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+        <span>Dashboard</span>
+      </a>
+      <a href="admin-products.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="7" y="2" width="10" height="20" rx="2"/></svg>
+        <span>Products</span>
+      </a>
+      <a href="admin-categories.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="14" y2="18"/></svg>
+        <span>Categories</span>
+      </a>
+      <a href="admin-brands.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/></svg>
+        <span>Brands</span>
+      </a>
+      <a href="admin-featured.html" class="admin-nav-item active">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>
+        <span>Featured Products</span>
+      </a>
+      <a href="admin-offers.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l7 4v6c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6l7-4z"/></svg>
+        <span>Offers</span>
+      </a>
+      <a href="admin-banners.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="6" width="20" height="12" rx="2"/></svg>
+        <span>Banners &amp; Slider</span>
+      </a>
+      <a href="admin-settings.html" class="admin-nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.9l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.9-.3 1.7 1.7 0 00-1 1.6V21a2 2 0 11-4 0v-.1a1.7 1.7 0 00-1-1.5 1.7 1.7 0 00-1.9.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.9 1.7 1.7 0 00-1.6-1H3a2 2 0 110-4h.1a1.7 1.7 0 001.6-1 1.7 1.7 0 00-.3-1.9l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.9.3H9a1.7 1.7 0 001-1.6V3a2 2 0 114 0v.1a1.7 1.7 0 001 1.6 1.7 1.7 0 001.9-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.9V9a1.7 1.7 0 001.6 1H21a2 2 0 110 4h-.1a1.7 1.7 0 00-1.6 1z"/></svg>
+        <span>Settings</span>
+      </a>
+    </nav>
+  </aside>
+
+  <div class="admin-main">
+    <header class="admin-topbar">
+      <h1>Featured Products</h1>
+      <div class="admin-profile">
+        <div class="admin-profile-info">
+          <div class="name" id="adminName">—</div>
+          <div class="role" id="adminRole">—</div>
+        </div>
+        <div class="admin-avatar" id="adminAvatar">A</div>
+        <button class="admin-logout" id="logoutBtn">Logout</button>
+      </div>
+    </header>
+
+    <main class="admin-content">
+
+      <p style="color:var(--muted); font-size:0.85rem; margin-bottom:18px;">
+        Featured products dikhte hain homepage aur shop listing par sab se pehle (top par). Star button dabakar kisi bhi product ko featured mark ya unmark karein.
+      </p>
+
+      <div class="products-toolbar">
+        <div class="type-tabs" id="featuredTabs">
+          <button class="type-tab active" data-filter="all">All Products</button>
+          <button class="type-tab" data-filter="featured">Featured Only</button>
+        </div>
+        <div class="products-toolbar-right">
+          <input type="text" id="searchInput" class="products-search" placeholder="Search products...">
+        </div>
+      </div>
+
+      <div id="featuredMsg" class="products-msg"></div>
+
+      <div class="products-table-wrap">
+        <table class="products-table">
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Price</th>
+              <th>Featured</th>
+            </tr>
+          </thead>
+          <tbody id="featuredTbody">
+            <tr><td colspan="5" class="products-empty">Loading...</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="products-pagination" id="featuredPagination"></div>
+
+    </main>
+  </div>
+</div>
+
+<script src="js/admin-config.js"></script>
+<script src="js/admin-featured.js"></script>
+</body>
+</html>

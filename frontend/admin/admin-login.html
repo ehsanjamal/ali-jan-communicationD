@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login — Ali Jan Communication</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+
+<div class="admin-login-wrap">
+  <div class="admin-login-card">
+    <div class="admin-login-logo">
+      <div class="logo-mark">AJC</div>
+      <div class="logo-text">
+        <div class="big">ALI JAN</div>
+        <div class="small">COMMUNICATION</div>
+      </div>
+    </div>
+    <h1 class="admin-login-title">Admin Login</h1>
+    <p class="admin-login-sub">Sign in to manage your store.</p>
+
+    <div class="admin-error" id="loginError"></div>
+
+    <form id="loginForm" novalidate>
+      <div class="admin-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="username" required>
+      </div>
+      <div class="admin-field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" autocomplete="current-password" required>
+      </div>
+      <button type="submit" class="admin-submit" id="loginBtn">Login</button>
+    </form>
+
+    <a href="../index.html" class="admin-back-link">&larr; Back to website</a>
+  </div>
+</div>
+
+<script src="js/admin-config.js"></script>
+<script src="js/admin-login.js"></script>
+</body>
+</html>
